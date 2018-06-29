@@ -12,8 +12,8 @@ function solution(arr, divisor) {
 }
 
 // 세 줄로 줄여본 결과 속도는 기존과 비슷, 조금 더 느렸다.
-function solution(arr, divisor) {
-  let divided = [];
-  divided = arr.filter(x => x % divisor === 0)
-  return divided.length? divided.sort((x, y) => x - y) : divided.concat(-1)
-}
+// function solution(arr, divisor) {
+//   let divided = [];
+//   divided = arr.filter(x => x % divisor === 0)
+//   return divided.length? divided.sort((x, y) => x - y) : divided.concat(-1)
+// }
