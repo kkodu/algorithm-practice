@@ -1,16 +1,9 @@
 public class Year2016 {
 	public static String solution(int a, int b) {
-<<<<<<< HEAD
 				int[] month = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
       	int sum = 0;
       	int day;
       	String answer = "";
-=======
-		int[] month = { 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
-		int sum = 0;
-		int day;
-		String answer = "";
->>>>>>> df865cad2e6e54db342fd4ec5ddd0f900c11f4ae
 
 		for (int i = 1; i < a; i++) {
 			sum += month[i-1];
